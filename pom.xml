@@ -17,6 +17,8 @@
 		<slf4j.version>2.0.17</slf4j.version>
 		<logback.version>1.5.18</logback.version>
 		
+		<junit.version>5.13.4</junit.version>
+		
 		<jsoup.version>1.21.2</jsoup.version>
 		
 		<jetty.version>12.1.0</jetty.version>
@@ -45,6 +47,13 @@
 				<artifactId>logback-classic</artifactId>
 				<version>${logback.version}</version>
 				<scope>runtime</scope>
+			</dependency>
+			
+			<dependency>
+				<groupId>org.junit.jupiter</groupId>
+				<artifactId>junit-jupiter</artifactId>
+				<version>${junit.version}</version>
+				<scope>test</scope>
 			</dependency>
 			
 			<dependency>
